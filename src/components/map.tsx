@@ -15,6 +15,15 @@ const Map = () => {
     }
   }, [ref, map]);
 
+  useEffect(() => {
+    if (map) {
+      map.data.loadGeoJson(
+        "https://storage.googleapis.com/mapsdevsite/json/google.json"
+      );
+      map.data.loadGeoJson("./public/test2.geojson");
+    }
+  }, [map]);
+
   const style = { width: "100%", height: "100%" };
   return <div ref={ref} style={style}></div>;
 };

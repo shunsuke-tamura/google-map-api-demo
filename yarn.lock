@@ -451,6 +451,11 @@
   resolved "https://registry.yarnpkg.com/@types/google.maps/-/google.maps-3.53.6.tgz#8e915f21bc4af214ae6c0babf65e1763ac0a8712"
   integrity sha512-zDU8c7K0YR1Ob7Wn0qCSQvICIuxilZH9KFIDHK6JO/5QzqEMv8e4+9bmyoDEktA9vPNmwP++zzg65h9y53iZ6Q==
 
+"@types/google.visualization@^0.0.69":
+  version "0.0.69"
+  resolved "https://registry.yarnpkg.com/@types/google.visualization/-/google.visualization-0.0.69.tgz#b60053b8cd9c8abb0b3b0d01b42a3fc6df854165"
+  integrity sha512-EGkhm5uUyX7PVCTzQacux9rELhiG5uxGZP2mYc1zLCuT3/vHQvWDGY96BZwTDaizqtebGIfFuGFBx3kW7dwYVw==
+
 "@types/json-schema@^7.0.12":
   version "7.0.12"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.12.tgz#d70faba7039d5fca54c83c7dbab41051d2b6f6cb"

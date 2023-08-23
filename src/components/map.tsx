@@ -21,6 +21,11 @@ const Map = () => {
         "https://storage.googleapis.com/mapsdevsite/json/google.json"
       );
       map.data.loadGeoJson("./public/test2.geojson");
+      map.data.setStyle({
+        fillColor: "transparent",
+        strokeWeight: 2,
+        strokeColor: "red",
+      });
     }
   }, [map]);
 

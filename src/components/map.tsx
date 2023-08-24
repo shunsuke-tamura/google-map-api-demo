@@ -41,7 +41,11 @@ const Map = () => {
       map.data.addListener("click", (event) => {
         console.log(event.feature.getProperty("NAME_JA"));
         event.feature.setProperty("isSelected", true);
-        if (lastSelectedFeature.current) {
+        if (
+          lastSelectedFeature.current &&
+          event.feature.getProperty("NAME_JA") !==
+            lastSelectedFeature.current.getProperty("NAME_JA")
+        ) {
           lastSelectedFeature.current.setProperty("isSelected", false);
         }
         lastSelectedFeature.current = event.feature;
